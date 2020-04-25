@@ -1,0 +1,35 @@
+body {
+    max-width: 660px;
+    margin: auto;
+    padding: 0.5rem 0.5rem;
+    background-color: whitesmoke;
+}
+
+header, footer {
+    background-color: blue;
+    height: 85px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+img{
+    float: right;
+    box-shadow: 0px 0px 15px black
+}
+
+#imgp {
+    margin-right: 2rem;
+}
+
+footer a {
+    color: whitesmoke;
+   
+}
+h1{
+    text-align: center;
+}
+
+p{
+    color: yellow;
+    text-align: center;
+}
