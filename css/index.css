@@ -7,9 +7,11 @@ body {
 
 header, footer {
     background-color: blue;
-    height: 85px;
+    /* height: 85px; */
     border-radius: 0.5rem;
     text-align: center;
+    padding: 10px;
+    margin: 0.5rem;
 }
 
 img{
@@ -17,9 +19,9 @@ img{
     box-shadow: 0px 0px 15px black
 }
 
-#imgp {
+/* #imgp {
     margin-right: 2rem;
-}
+} */
 
 footer a {
     color: whitesmoke;
