@@ -26,10 +26,14 @@ footer a {
    
 }
 h1{
+    color: white;
     text-align: center;
 }
 
 p{
     color: yellow;
     text-align: center;
+}
+.myfooter {
+    color: white;
 }
