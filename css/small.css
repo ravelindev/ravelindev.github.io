@@ -14,7 +14,7 @@ body {
 header, footer {
     background-color: black;
     /* height: 85px; */
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
     text-align: center;
     padding: 10px;
     margin: 0.5rem;
@@ -22,25 +22,33 @@ header, footer {
 }
 
 img{
-    float: right;
-    box-shadow: 0px 0px 15px black
+    width: 170px;
+    height: auto;
 }
 
-/* #imgp {
-    margin-right: 2rem;
-} */
 
 footer a {
     color: whitesmoke;
    
 }
 h1{
+    font-size: 1.5em;
+    margin: 0.15em;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
 }
 
+h2 {
+        display: block;
+        font-size: 1em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+}
 p{
     color: yellow;
     text-align: center;
