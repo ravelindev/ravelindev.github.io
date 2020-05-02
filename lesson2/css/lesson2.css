@@ -17,8 +17,9 @@ header, footer {
 
 img{
     border-radius: 0 10px 0 0;
-    float: right;
+    position: center;
     box-shadow: 0px 0px 15px black;
+    padding-top: 15px;
 
 }
 
@@ -49,4 +50,13 @@ img{
 }
 .grid-item, a, p{
     color: white;
+}
+
+p{
+    font-weight: bold;
+    font-size: 15px;
+    /* padding-top: 15px; */
+}
+a{
+    font-size: 15px;
 }
