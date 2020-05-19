@@ -33,7 +33,7 @@ h1{
 }
 
 .moto {
-    color: #000000;
+    color: #f0ff1e;
     font-family: 'open Sans Condensed', sans-serif;
     font-style: italic;
     letter-spacing: 1pt;
@@ -73,7 +73,7 @@ li {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 208, 0);
 }
 
 nav ul li a {
@@ -114,7 +114,7 @@ footer {
     /* display: block; */
      /* align-items: center;
     justify-content: center; */
-    color: #000000;
+    color: #fbff00;
 
 
     /* display: flex; */
@@ -146,4 +146,6 @@ article {
 
 h3 {
     margin: .5rem;
+    
+
   }
