@@ -1,58 +1,59 @@
-
+/* 
 body {
     max-width: 960px;
-    margin: auto;
+    margin: auto; */
     /* padding: 0.5rem 0.5rem; */
-    background-color: #EFF3C6;
+    /* background-color: #EFF3C6;
     width:100%;
     height:200px;
 
-}
+} */
 
-header, footer {
-    background-color: #0779E4;
-    text-align: center;
-    padding: 10px;
-    margin: 0.5rem;
-    font-family: 'Roboto', sans-serif;
-}
+/* header, footer {
+    background-color: #0779E4; */
+    /* text-align: center; */
+    /* padding: 5px 0; */
+    /* padding: 10px; */
+    /* margin: 0.5rem; */
+    /* font-family: 'Roboto', sans-serif; */
+/* } */
 
-
+/* 
 footer a {
     color:#100303;
     font-size: 20px;
     
-}
+} */
 
-header a {
+/* header a {
     color:#100303;
     font-size: 20px;
     
-}
+} */
 
-h1{
+/* h1{
     font-size: 2.5em;
     margin: 0.15em;
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 
-}
+} */
 
-h2 {
+/* h2 {
         display: block;
         font-size: 2em;
         font-weight: bold;
         color: black;
 }
-p{
+p{ */
     /* background-color: #77d8d8; */
-    color: black;
+    /* color: black;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
 
-}
-.myfooter {
+} */
+/* .myfooter {
     color: black;
     font-size: 1.5em;
 
@@ -62,9 +63,9 @@ p{
 .mynav {
     background-color: #4cbbb9;
     padding-top: 0px;
-    border-radius: 30px;
-}
-
+    border-radius: 30px; */
+/* } */
+/* 
 ul {
     list-style-type: none;
     margin: 0;
@@ -111,4 +112,66 @@ ul {
     display: inline-flex;
     height: 100px;
     align-items: center;
-}
+} */
+
+
+
+
+
+/* Larger viewports */
+/* @media only screen and (min-width: 32.5em) {
+	header img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.m {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+} */
+
+
+
+
+@media only screen and (min-width: 64rem) {
+
+
+    nav button {
+        display: none;
+    }
+    nav ul.hide{display: block;}
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        border: none;
+        /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
+        padding: .6rem 1rem;
+    
+    }
+
+
+    footer {
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* display: flex; */
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 4em;
+        text-align: center;
+
+    
+    }
+
+} /*end large */

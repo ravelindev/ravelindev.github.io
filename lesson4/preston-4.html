@@ -6,7 +6,6 @@
     <title>Rudy Ravelin | Lesson 4</title>
     <meta name="description" content="Preston Page.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="./css/lesson4small.css">
@@ -17,20 +16,16 @@
 <body>
     
  <header>
-    <hr>
-    <!-- <img src="./images/logo.png" alt="Weather-logo" class="logo"> -->
-    <section class="header-1">
-        <img src="./images/logo.png" alt="Weather-logo" class="logo"><br/>
-        <h1>Which-Temp</h1>
+      <picture><img src="./images/logo.png" alt="Weather-logo" class="logo"></picture>
+      <section class="headings"> 
+      <h1>Which-Temp</h1>
         <div class="moto">Good or Bad Weather Today?</div>
-        <hr>
     </section>
-   
-    <a href="../index.html">Back to Home Page</a> 
- </header>
+    </header>
 
  <nav class="mynav">
-    <ul>
+    <button onclick="toggleMenu()">&#9776</button>
+    <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
@@ -46,25 +41,26 @@
 
 
             <article>
-                    <p>Hero image/weather summery</p>
+                    <h3>Hero image/weather summery</h3>
             </section>
 
             <article>
-                    <p>5 Day Forecast</p>
+                    <h3>5 Day Forecast</h3>
             </article>
 
             <article>
-                <p>Articles</p>            
+                <h3>Articles</h3>            
             </article>            
             
             <article>
-                    <p>Contact Information</p>    
+                    <h3>Contact Information</h3>    
             </article>
   </main>
 
  <footer class="myfooter">
-    &copy; 2020 | Rudy Ravelin | Haiti | <a href="https://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a><br>
-   <p>Last updated: <span id="lastUpdate"></span></p>
+    &copy; 2020 | Which-Temp | Attributions | Rudy Ravelin<br>
+    <span id="myDate"></span>
+
 
  </footer>
  <script src="./js/lesson4.js">
