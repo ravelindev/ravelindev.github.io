@@ -34,8 +34,7 @@ h1{
 
 .moto {
     color: #ffffff;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'open Sans Condensed', sans-serif
+    font-family: 'open Sans Condensed', sans-serif;
     font-style: italic;
     letter-spacing: 1pt;
     margin-left: 25px;
