@@ -35,4 +35,100 @@
     
     }
 
-} /*end large */
+} 
+
+
+.item-1{
+    background-color: black;
+    background-image: url('../images/item-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* background-size: 2000px 400px; */
+    background-size: 100% 100%;
+
+    
+    padding: 150px 100px 100px 150px;
+    margin-bottom: 100px;
+}
+
+
+.summary{
+    background-color: rgba(8, 153, 8, 0.5);
+    top: 230px;
+    left: 150px;
+    color: #ffffff;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.item-2{
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+
+
+.myarticle{
+    background-color: #ff5433;
+    background-size: auto;
+    /* background-size: 2000px 400px; */
+    background-size: 100% 100%;
+
+    
+    padding: 150px 100px 100px 150px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end large */
