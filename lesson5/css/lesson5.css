@@ -71,6 +71,10 @@
     
 }
 
+.mytable{
+    display: inline-block;
+}
+
 
 .myarticle{
     background-color: #ff5433;
@@ -79,16 +83,31 @@
     background-size: 100% 100%;
 
     
-    padding: 150px 100px 100px 150px;
+    padding: 80px 70px 70px 80px;
     margin-bottom: 100px;
+}
+
+.imgarticle {
+    float: right;
 }
 
 
 
+.mycontact{
+    background-color: #ff5433;    
+    padding: 100px 100px;
+    margin-bottom: 50px;
+    text-align: center;
 
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 4em;
+}
 
-
-
+.mycontactchild{
+    /* padding-top: 10px; */
+    display: inline-block;
+}
 
 
 
